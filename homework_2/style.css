@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #c9c9da;
+    font: 20px solid, sans-serif;
+    color: #212a31;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+h2 {
+    font-size: 24px;
+    color: #264567;
+}
+p {
+    text-align: justify;
+}
+p.github_issue {
+    font: italic 23px serif;
+    color: #0b5442;
+}
+img {
+    border: #667683 5px solid;
+}
+.plan {
+    color: #5d1c1c;
+    font-size: 30px;
+    text-decoration: none;
+}
+.plan:hover {
+    color: #667683;
+    text-decoration: underline #acbac5;
+}
+#first {
+    list-style: none;
+}
+hr {
+    border-style: double;
+    margin-bottom: 20px;
+    color: #e3e8ee;
+}
+li {
+    color: #112165;
+}
+.another_list_style {
+    list-style: square;
+    color: #5d1c1c;
+}
