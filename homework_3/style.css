@@ -24,6 +24,10 @@ body {
     padding: 15px;
     box-sizing: border-box;
 }
+img {
+    border: #90b0c5 2px solid;
+    border-radius: 20px;
+ }
 #under_header_line {
     background: #274f7c;
     height: 40px;
@@ -46,28 +50,43 @@ body {
     /*background: #e2f1fc;*/
     /*border-radius: 20px;*/
 }
-ul{
+#ul_first{
     padding-left: 20px;
+    list-style: none;
 }
 li.menu_links{
     padding-left: 20px;
     border-left: 5px solid #264567;
 }
-h2 {
-    font-size: 24px;
-    color: #264567;
-}
-p {
+.text {
+    margin-top: 40px;
+    border-bottom: 1px solid #3a70a6;
     text-align: justify;
+ }
+.p_title>h2{
+    font-size: 1.5rem;
+    color: #123d52;
+    margin-left: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: #687888 1px solid;
+    border-radius: 5px;
+    background: #dde4ec;
+    box-shadow: 3px 3px #264567;
+}
+.issue {
+    font-style: normal;
+}
+.text>p {
     font-size: 1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-p.github_issue {
-    font: italic 23px serif;
+.github_issue {
+    font-style: italic;
     color: #0b5442;
-}
-img {
-    border: #90b0c5 2px solid;
-    border-radius: 20px;
 }
 .plan {
     color: #264567;
@@ -93,4 +112,18 @@ li {
 .another_list_style {
     list-style: square;
     color: #5d1c1c;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #90b0c5;
+}
+#github_link {
+    margin-top:20px;
+}
+
+.p_title {
+    display: flex;
+    justify-content: left;
 }
