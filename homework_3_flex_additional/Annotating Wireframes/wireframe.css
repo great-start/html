@@ -1,0 +1,143 @@
+
+body {
+    display: flex;
+    justify-content: center;
+}
+#base {
+    background: #dcd5d5;
+    width: 800px;
+    height: 1200px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+#header {
+    background: #a0aec2;
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.h {
+    background: #6886b0;
+    flex-basis: 100px;
+}
+#aside_main_footer {
+    /*background: #72b683;*/
+    height: 90%;
+    column-gap: 8px;
+    display: flex;
+}
+#sidebar {
+    background: #857d7d;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 10px;
+}
+.sb {
+    background: #423232;
+    height: 30px;
+}
+#main_footer {
+    /*background: #483939;*/
+    flex-grow: 8;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+#main_top {
+    background: #b7a3a3;
+    flex-grow: 2;
+    padding: 10px;
+}
+#main_top>div {
+    background: #866767;
+    width: 100%;
+    height: 100%;
+}
+
+#main_middle {
+    background: #b7a3a3;
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+    column-gap: 6px;
+}
+
+.middle {
+    background: #866767;
+    flex: 1 0 0;
+}
+#main_text_block {
+    /*background: #816969;*/
+    flex-grow: 6;
+    display: flex;
+    column-gap: 8px;
+
+}
+#text {
+    background: #b7a3a3;
+    display: flex;
+    flex-direction: column;
+    flex: 4 0 0;
+    padding: 10px;
+}
+#m_text {
+    background: #b7a3a3;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    flex: 15 0 0;
+    align-content: space-around;
+}
+#down_text {
+    background: #b7a3a3;
+    flex: 1 0 0;
+    display: flex;
+    justify-content: center;
+}
+#down_text>div {
+    background: #866767;
+    width: 100px;
+    height: 30px;
+}
+.texts {
+    background: #866767;
+    width: 49%;
+    height: 10%;
+}
+#text_aside {
+    background: #b7a3a3;
+    flex: 1 0 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 10px;
+}
+.asides {
+    background: #866767;
+    height: 30px;
+}
+
+#footer {
+    background: #b7a3a3;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 10px;
+}
+#footer_top {
+    background: #866767;
+    flex-grow: 1;
+}
+#footer_down {
+    background: #866767;
+    flex-grow: 1;
+    width: 100px;
+    align-self: center;
+}
+
