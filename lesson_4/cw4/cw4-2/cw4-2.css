@@ -12,7 +12,7 @@ div {
     height: inherit;
     width: inherit;
 }
-.flex {
+.disp_flex {
     display: flex;
 }
 .br {
@@ -20,12 +20,6 @@ div {
 }
 .fl_value {
     flex: 1 0 0;
-}
-.left_top_line2 > div, .left_header2__content div, .left_header3__content, .right_top_line > div,
-.right_top_line2 > div,.right_menu__head > div, .right_menu__foot > div, .right_menu3__right > div,
-.right_menu3__left > div, .right_menu2__right > div,.right_menu2__left > div, .left_header2__content,
-.right_top_line > div {
-      flex: 1 0 0;
 }
 .left_header2__content, .left_header3__content:nth-child(2), .left_main__head > div, .right_menu__head
 .right_menu2, .right_menu2__right > div, .right_menu3__left > div, .right_menu__head {
