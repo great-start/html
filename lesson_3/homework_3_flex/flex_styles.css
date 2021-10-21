@@ -89,7 +89,7 @@ div{
 }
 .post {
     background: #84a263;
-    flex:1 0 0;
+    flex-grow: 1;
 }
 
 /*Template_2-2*/
