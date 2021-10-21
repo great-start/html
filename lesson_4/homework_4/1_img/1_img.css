@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.base {
+    background: #dcd8d8;
+    width: 800px;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 0.5%;
+    border: 2px solid #696969;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.base div {
+    background: #a19a9a;
+    text-align: center;
+}
+.base > div:first-child {
+    flex: 1 0 0;
+}
+.base > div:last-child {
+    background: #dcd8d8;
+    flex: 2 0 0;
+    display: flex;
+    column-gap: 8px;
+}
+.base > div:last-child div:first-child {
+    flex: 3 0 0;
+}
+.base > div:last-child div:last-child {
+    flex: 1 0 0;
+}

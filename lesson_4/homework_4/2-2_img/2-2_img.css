@@ -1,0 +1,33 @@
+p {
+    font-size: 18px;
+}
+.base {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 900px;
+    flex-direction: column;
+    row-gap: 10px;
+    color: white;
+}
+.display_flex {
+    display: flex;
+}
+.bg_blue {
+    background: blue;
+}
+.widgets_header {
+    height: 20%;
+}
+.widgets_body {
+    height: 20%;
+    column-gap: 10px;
+}
+.widgets_body div {
+    background: darkblue;
+    flex: 1 0 0;
+}
+.widgets_footer {
+    height: 50%;
+}

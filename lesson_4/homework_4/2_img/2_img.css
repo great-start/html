@@ -1,0 +1,38 @@
+
+#base {
+    box-sizing: border-box;
+    text-align: center;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.display_flex {
+    display: flex;
+}
+#header {
+    background: #084486;
+    justify-content: center;
+    height: 15%;
+}
+#nav {
+    background: #283672;
+    height: 15%;
+}
+#main_block {
+    height: 53%;
+}
+#main_block__description {
+    background: #528e98;
+    flex-grow: 8;
+}
+#main_block__aside {
+    background: #75559b;
+    flex-grow: 2;
+}
+#footer {
+    background: #a2c6c7;
+    height: 15%;
+}
