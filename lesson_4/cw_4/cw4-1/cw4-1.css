@@ -5,7 +5,7 @@
     height: 500px;
     margin: 0 auto;
 }
-.base, .header, .footer, .header__description {
+.displ_flex {
     display: flex;
 }
 .base, .header, .header__description, .footer {
@@ -14,11 +14,13 @@
 .base, .header {
     flex-direction: column;
 }
+.bor_rad {
+    border-radius: 20px;
+}
 .header{
     height: 50%;
     border: 1px solid darkslateblue;
     margin: 10px 40px 20px 40px;
-    border-radius: 20px;
 }
 .header__description {
     margin: 0 0;
@@ -29,14 +31,12 @@
 .header__description > div {
     flex: 1 0 0;
     height: 70%;
-    border-radius: 20px;
 }
 .header__description p {
     color: midnightblue;
 }
 .header__description > div > div {
     height: 100%;
-    border-radius: 20px;
 }
 .bg_blue {
     background: midnightblue;
@@ -51,7 +51,6 @@
 }
 .footer__description {
     flex: 1 0 0;
-    height: auto;
     margin: 20px 0 20px 0;
     padding: 30px 20px 30px 20px;
 }
