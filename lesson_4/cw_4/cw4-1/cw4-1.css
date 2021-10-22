@@ -15,7 +15,7 @@
     flex-direction: column;
 }
 .header{
-    height: 52%;
+    height: 50%;
     border: 1px solid darkslateblue;
     margin: 10px 40px 20px 40px;
     border-radius: 20px;
@@ -45,7 +45,7 @@
     background: #cbd0e1;
 }
 .footer {
-    height: 52%;
+    height: 50%;
     column-gap: 5px;
     padding: 0 100px 0 100px;
 }
@@ -64,7 +64,4 @@
 }
 .footer__description p {
     color: #cbd0e1;
-}
-.under_footer {
-    height: 4%;
 }
