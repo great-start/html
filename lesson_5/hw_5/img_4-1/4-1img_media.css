@@ -9,7 +9,7 @@
         align-items: center;
        }
     .header__description > div > div {
-        min-width: 220px;
+        min-width: 210px;
     }
 }
 
@@ -18,19 +18,15 @@
         flex-direction: column;
         row-gap: 20px;
     }
-
     .header {
         border: none;
     }
-
     .header__description > div {
         align-items: center;
     }
-
     .header__description > div > div {
         width: 320px;
     }
-
     .footer {
         flex-wrap: wrap;
         flex-direction: column;
