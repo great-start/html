@@ -90,7 +90,6 @@ div {
 .header2__wrap_description > div {
     flex-direction: column;
     flex: 1 0 0;
-    border-right: 20px;
 }
 p {
     color: var(--blue);
@@ -142,6 +141,7 @@ p {
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 30px;
+    justify-content: space-between;
 }
 .main__wrap > div {
     border: 2px solid var(--lightblue);
@@ -151,8 +151,8 @@ p {
 .main__wrap > div > div {
     margin: 10px 10px 80px 10px;
     height: 120px;
-    min-width: 200px;
-    max-width: 260px;
+    min-width: 185px;
+    max-width: 270px;
     background: var(--blue);
     border-radius: 7px;
 }

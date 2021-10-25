@@ -1,0 +1,144 @@
+@media screen and (min-width: 600px) and (max-width: 780px) {
+
+    .nav :nth-child(2) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav__links:nth-child(even), .nav__links:nth-child(3) {
+        display: none;
+    }
+
+    .header2__wrap_description {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        column-gap: 80px;
+    }
+
+    .header2__wrap_description > div {
+        min-width: 160px;
+        max-width: 200px;
+    }
+
+    .header2__wrap_description > div > div {
+        min-width: 160px;
+    }
+
+    .main__wrap {
+        justify-content: space-around;
+        column-gap: 30px;
+    }
+
+    .main__wrap > div {
+        flex: none;
+    }
+
+    .main__wrap > div > div {
+        min-width: 220px;
+        max-width: 280px;
+    }
+}
+
+@media screen and (min-width: 530px) and (max-width: 599px) {
+
+    .links {
+        display: none;
+    }
+
+    .nav :nth-child(2) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav__links:nth-child(even), .nav__links:nth-child(3) {
+        display: none;
+    }
+
+    .header2__wrap {
+        border: none;
+        padding: 20px;
+    }
+
+    .header2__wrap_description {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        column-gap: 80px;
+    }
+
+    .header2__wrap_description > div {
+        min-width: 160px;
+        max-width: 200px;
+    }
+
+    .header2__wrap_description > div > div {
+        min-width: 160px;
+    }
+
+    .header3 {
+        height: 30px;
+    }
+
+    .header3__description {
+        display: none;
+    }
+
+    .main__wrap > div > div {
+        min-width: 185px;
+        max-width: 240px;
+    }
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 529px) {
+
+    .links {
+        display: none;
+    }
+
+    .nav :nth-child(2) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav__links:nth-child(even), .nav__links:nth-child(3) {
+        display: none;
+    }
+
+    .header > div {
+        padding: 30px 120px 10px 120px;
+        height: 80px;
+    }
+
+    .header2__wrap {
+        border: none;
+    }
+
+    .header3 {
+        height: 30px;
+    }
+
+    .header3__description {
+        display: none;
+    }
+
+    .header2__wrap_description {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header2__wrap_description > div {
+        min-width: 200px;
+        max-width: 240px;
+    }
+
+    .main__wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main__wrap > div > div {
+        min-width: 280px;
+        max-width: 320px;
+    }
+}
