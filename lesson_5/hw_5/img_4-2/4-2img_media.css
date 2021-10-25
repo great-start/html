@@ -23,10 +23,12 @@
     .header2__wrap_description > div > div {
         min-width: 160px;
     }
-
+    .main {
+        padding: 60px 30px 40px 30px;
+    }
     .main__wrap {
         justify-content: space-around;
-        column-gap: 30px;
+        column-gap: 20px;
     }
 
     .main__wrap > div {
@@ -39,7 +41,7 @@
     }
 }
 
-@media screen and (min-width: 530px) and (max-width: 599px) {
+@media screen and (min-width: 540px) and (max-width: 599px) {
 
     .links {
         display: none;
@@ -81,7 +83,12 @@
     .header3__description {
         display: none;
     }
-
+    .main {
+        padding: 60px 30px 40px 30px;
+    }
+    .main__wrap {
+        column-gap: 25px;
+    }
     .main__wrap > div > div {
         min-width: 185px;
         max-width: 240px;
@@ -89,7 +96,7 @@
 
 }
 
-@media screen and (min-width: 350px) and (max-width: 529px) {
+@media screen and (min-width: 350px) and (max-width: 539px) {
 
     .links {
         display: none;
