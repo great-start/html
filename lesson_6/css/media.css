@@ -1,0 +1,45 @@
+@media screen and (max-width: 400px) {
+    .header__logo img {
+        width: 50px;
+    }
+    .wrapper {
+        padding: 0 14px 0 14px;
+    }
+    .header__top {
+        margin: 0;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__nav_mobile-hidden {
+        display: flex;
+    }
+    .header__main {
+        margin-top: 230px;
+        align-items: center;
+    }
+    .header__main_title h2 {
+        margin-left: 0;
+        font-size: 30px;
+        line-height: 34px;
+        color: #D67E35;
+    }
+    .header__main_title h1 {
+        font-size: 40px;
+        line-height: 46px;
+        color: #D67E35;
+    }
+    .header__main_title p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .header__main_title p::before,
+    .header__main_title p::after {
+        display: none;
+    }
+    .header__main_button {
+        margin-top: 50px;
+        align-items: center;
+    }
+}
