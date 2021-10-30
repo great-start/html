@@ -13,7 +13,7 @@
     }
 }
 .header {
-    background: url("../lesson_6/image/bg.png") no-repeat center/cover;
+    background: url("../../lesson_6/image/bg.png") no-repeat center/cover;
     max-width: 1440px;
     height: 100vh;
 }
