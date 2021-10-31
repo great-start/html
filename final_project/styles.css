@@ -242,7 +242,85 @@ a {
     background: #3a70a6;
 }
 
+/*slider*/
 
+.slider1 .wrapper {
+    column-gap: 10px;
+}
+.slider1 {
+    margin-top: 30px;
+}
+.slider1__big {
+    max-width: 1000px;
+    height: 390px;
+}
+.slider1__aside {
+    row-gap: 10px;
+}
+.slider1__aside div {
+    background: #F4F5FA;
+    border-radius: 10px;
+    width: 344px;
+    height: 190px;
+}
+.carousel-item {
+    z-index: 0;
+}
+.carousel-item img:nth-child(2) {
+    z-index: 1;
+    top: 17px;
+    left: 510px;
+}
+.carousel-item img:nth-child(3) {
+    z-index: 1;
+    top: 76px;
+    right: 502px;
+}
+
+
+/*slider2*/
+
+.slider2 .wrapper {
+    height: 184px;
+    margin-top: 30px;
+    column-gap: 30px;
+}
+.slider2__box {
+    flex: 1 0 0;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+/*main*/
+
+.main {
+    margin-top: 70px;
+}
+.main__buttons {
+    column-gap: 20px;
+}
+.main__buttons button {
+    background: #005BB9;
+    border-radius: 6px;
+    height: 55px;
+    padding: 0 23px;
+}
+.main__buttons :nth-child(1) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.main__buttons :nth-child(2), .main__buttons :nth-child(3)  {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+    background: #FFFFFF;
+}
 
 
 
