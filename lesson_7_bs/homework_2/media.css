@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px){
+    .main-left h1 {
+        font-size: 38px;
+    }
+    .main-right {
+        margin-top: 0;
+    }
+    .main-right::before {
+        content: "";
+        display: block;
+        width: 227px;
+        height: 8px;
+        background:#EDEFF3;
+        margin: 20px auto 0 auto;
+    }
+    .main2-left {
+        padding: 0;
+    }
+    .main2-left-text_wrap {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .main3 .container .row {
+        flex-direction: column-reverse;
+    }
+    .main3-img {
+        height: 370px;
+    }
+    .img-abs {
+        right: -33px;
+        top: -329px;
+    }
+    .main3-text {
+        padding: 0 16px;
+    }
+}
