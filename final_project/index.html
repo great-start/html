@@ -37,7 +37,7 @@
 </div>
 <div class="header">
     <div class="wrapper d-flex flex-column">
-        <div class="header__top-logo d-flex align-items-center">
+        <div class="header__top-logo d-flex align-items-center justify-content-between">
             <div class="header__top-logo_desc d-flex align-items-center">
                 <img alt="Logo" class="d-block" src="img/Mask_Group.png">
                 <div class="align-items-center">
@@ -53,11 +53,11 @@
                 </div>
             </div>
             <div class="header__top-address d-flex align-items-center">
-                <img src="img/placeholder2.png" alt="placeholder">
+                <img alt="placeholder" src="img/placeholder2.png">
                 <p>Невский пр-т, д. 45</p>
             </div>
             <div class="header__top-whatsapp d-flex">
-                <img class="m-auto" src="img/whatsapp.png" alt="whatsapp">
+                <img alt="whatsapp" class="m-auto" src="img/whatsapp.png">
                 <p class="m-auto">Напишите нам в WhatsApp</p>
             </div>
             <div class="header__top-phone d-flex flex-column">
@@ -65,7 +65,22 @@
                 <a href="">форма обратной связи</a>
             </div>
         </div>
-        <div class="header-main__foot"></div>
+        <div class="header__foot d-flex align-items-center justify-content-between">
+            <div class="header__foot-left d-flex justify-content-between">
+                <button class="btn btn-primary d-flex align-items-center justify-content-center" type="button"><img
+                        alt="group_icon" src="img/Group.png">Каталог
+                </button>
+                <form class="d-flex">
+                    <input aria-label="Search" class="form-control" placeholder="Поиск по наименованию или артикулу" type="search">
+                    <button class="btn btn-outline-success" type="submit">Найти</button>
+                </form>
+            </div>
+            <div class="header__foot-right d-flex">
+                <div><img src="img/user.png" alt="user-icon"><a href="">Войти</a></div>
+                <div><img src="img/Vector.png" alt="vector-icon"><a href="">Избранное</a></div>
+                <div class="d-flex align-items-center justify-content-center"><img src="img/cart.png" alt="cart-icon"><p>В корзине нет товаров</p></div>
+            </div>
+        </div>
     </div>
 </div>
 

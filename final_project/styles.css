@@ -21,6 +21,8 @@ a {
     height: inherit;
 }
 
+/*nav-line*/
+
 .nav-line {
     height: 36px;
     background: #0F2438;
@@ -63,6 +65,9 @@ a {
     line-height: 16px;
     color: var(--bs-white);
 }
+.nav-line__right-side a:hover {
+    color: #90b0c5;
+}
 
 /*header-main*/
 
@@ -76,19 +81,12 @@ a {
     height: 98px;
     width: inherit;
     margin-top: 27px;
-    border: 1px solid chocolate;
 }
 
-.header-main__foot {
+.header__foot {
     width: inherit;
     height: 73px;
-    border: #2E75FF 1px solid;
 }
-
-.header__top-logo_desc {
-    margin-right: 100px;
-}
-
 .header__top-logo_desc img {
     width: 73px;
     height: 83px;
@@ -114,9 +112,6 @@ a {
     color: #0F2438;
 }
 
-.header__top-work-time {
-    margin-right: 80px;
-}
 
 .header__top-work-time img {
     display: block;
@@ -132,10 +127,6 @@ a {
     line-height: 20px;
     text-align: right;
     color: #0F2438;
-}
-
-.header__top-address {
-
 }
 
 .header__top-address p {
@@ -159,7 +150,7 @@ a {
 }
 .header__top-whatsapp p {
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 12px;
     line-height: 14px;
     text-align: right;
@@ -171,7 +162,7 @@ a {
 }
 .phone-number {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
     line-height: 23px;
     color: #0F2438;
@@ -187,3 +178,72 @@ a {
     opacity: 0.7;
     text-align: right;
 }
+
+/*header-main__foot*/
+
+.header__foot button {
+    height: 53px;
+    width: 164px;
+    background: #005BB9;
+    column-gap: 10px;
+    border: none;
+}
+.header__foot-left {
+    column-gap: 30px;
+}
+.form-control {
+    width: 540px;
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+}
+.form-control + button {
+    width: 100px;
+    background: #005BB9;
+    border: none;
+    border-top-left-radius: unset;
+    border-bottom-left-radius: unset;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.header__foot-right img {
+    margin: 0 15px;
+}
+.header__foot-right div {
+    border-right: 2px solid lightgrey;
+}
+.header__foot-right div a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0F2438;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header__foot-right div:nth-child(3) {
+    border: none;
+}
+.header__foot-right div:nth-child(3) p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0F2438;
+    width: 70px;
+}
+.header__foot-right div a:hover {
+    color: #90b0c5;
+}
+.form-control + button:hover, .header__foot button:hover {
+    background: #3a70a6;
+}
+
+
+
+
+
+
