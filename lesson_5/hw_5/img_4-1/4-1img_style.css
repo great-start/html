@@ -17,19 +17,19 @@ div {
 .displ_flex {
     display: flex;
 }
-.header, .footer {
+.nav-line, .footer {
     flex: 1 0 0;
 }
-.base, .header, .header__description, .footer {
+.base, .nav-line, .header__description, .footer {
     justify-content: center;
 }
-.base, .header {
+.base, .nav-line {
     flex-direction: column;
 }
 .bor_rad {
     border-radius: 20px;
 }
-.header{
+.nav-line{
     border: 3px solid var(--color-darkgrey);
     margin: 10px 40px 20px 40px;
     padding: 10px 0 10px 0;

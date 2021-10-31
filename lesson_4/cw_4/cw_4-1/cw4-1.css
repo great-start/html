@@ -17,16 +17,16 @@ div {
 .displ_flex {
     display: flex;
 }
-.base, .header, .header__description, .footer {
+.base, .nav-line, .header__description, .footer {
     justify-content: center;
 }
-.base, .header {
+.base, .nav-line {
     flex-direction: column;
 }
 .bor_rad {
     border-radius: 20px;
 }
-.header{
+.nav-line{
     height: 50%;
     border: 2px solid var(--color-darkgrey);
     margin: 10px 40px 20px 40px;

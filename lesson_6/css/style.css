@@ -59,7 +59,7 @@ table {
 .flex {
     display: flex;
 }
-.header {
+.nav-line {
     margin: 0 auto;
     height: 800px;
     max-width: 1440px;

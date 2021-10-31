@@ -57,16 +57,16 @@ div {
     margin: 20px 0 20px 0;
     border-radius: 7px;
 }
-.header {
+.nav-line {
     background: var(--lightblue);
 }
-.header > div {
+.nav-line > div {
     margin: 10px auto;
     border: 2px solid var(--grey);
     border-radius: 7px;
     padding: 80px 120px 20px 120px;
 }
-.header div div {
+.nav-line div div {
     width: 100px;
     height: 30px;
     background: var(--blue);
