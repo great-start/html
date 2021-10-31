@@ -11,18 +11,19 @@
     <link href="media.css" rel="stylesheet">
 </head>
 <body>
-<div class="header-top">
+<div class="nav-line">
     <div class="wrapper d-flex justify-content-between">
-        <div class="header-top__left-side d-flex">
+        <div class="nav-line__left-side d-flex">
             <div class="me-5"><img alt="placeholder" src="img/placeholder.svg">
-                <p class="d-inline-block me-1">Ваш город:</p><a class="text-decoration-underline" href="">Москва</a></div>
+                <p class="d-inline-block me-1">Ваш город:</p><a class="text-decoration-underline" href="">Москва</a>
+            </div>
             <ul class="d-flex me-4 justify-content-center">
-                <li class="me-5"><a class="me-2" href="">Информация</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
+                <li class="me-4"><a class="me-2" href="">Информация</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
                 <li><a class="me-2" href="">Сотрудничество</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
             </ul>
         </div>
-        <div class="header-top__right-side">
-            <ul class="d-flex align-items-center gap-4">
+        <div class="nav-line__right-side">
+            <ul class="d-flex align-items-center">
                 <li><a href="">Доставка</a></li>
                 <li><a href="">Оплата</a></li>
                 <li><a href="">Гарантия</a></li>
@@ -34,8 +35,38 @@
         </div>
     </div>
 </div>
-<div class="header-main">
-    <div class="wrapper"></div>
+<div class="header">
+    <div class="wrapper d-flex flex-column">
+        <div class="header__top-logo d-flex align-items-center">
+            <div class="header__top-logo_desc d-flex align-items-center">
+                <img alt="Logo" class="d-block" src="img/Mask_Group.png">
+                <div class="align-items-center">
+                    <h1>AVT-ZAP</h1>
+                    <p>Интернет-магазин запчастей для АКПП</p>
+                </div>
+            </div>
+            <div class="header__top-work-time d-flex align-items-center">
+                <img alt="clock" src="img/time.png">
+                <div>
+                    <p>Мы работаем: будни - 9:00-21:00</p>
+                    <p>сб. - 10:00-15:00</p>
+                </div>
+            </div>
+            <div class="header__top-address d-flex align-items-center">
+                <img src="img/placeholder2.png" alt="placeholder">
+                <p>Невский пр-т, д. 45</p>
+            </div>
+            <div class="header__top-whatsapp d-flex">
+                <img class="m-auto" src="img/whatsapp.png" alt="whatsapp">
+                <p class="m-auto">Напишите нам в WhatsApp</p>
+            </div>
+            <div class="header__top-phone d-flex flex-column">
+                <a class="phone-number" href="tel:+7 383 291 92 86">+7 383 291 92 86</a>
+                <a href="">форма обратной связи</a>
+            </div>
+        </div>
+        <div class="header-main__foot"></div>
+    </div>
 </div>
 
 
