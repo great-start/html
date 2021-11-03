@@ -22,6 +22,7 @@
             <ul class="d-flex me-4 justify-content-center">
                 <li class="me-4"><a class="me-2" href="">Информация</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
                 <li><a class="me-2" href="">Сотрудничество</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
+                <li class="me-4"><a class="me-2" href="">Еще</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
             </ul>
         </div>
         <div class="nav-line__right-side">
@@ -38,49 +39,55 @@
     </div>
 </div>
 <div class="header">
-    <div class="wrapper d-flex flex-column">
-        <div class="header__top-logo d-flex align-items-center justify-content-between">
-            <div class="header__top-logo_desc d-flex align-items-center">
+    <div class="wrapper flex flex-column">
+        <div class="header__top-logo flex align-items-center justify-content-between">
+            <div class="header__top-logo_desc flex align-items-center">
                 <img alt="Logo" class="d-block" src="img/Mask_Group.png">
                 <div class="align-items-center">
                     <h1>AVT-ZAP</h1>
                     <p>Интернет-магазин запчастей для АКПП</p>
                 </div>
             </div>
-            <div class="header__top-work-time d-flex align-items-center">
-                <img alt="clock" src="img/time.png">
-                <div>
-                    <p>Мы работаем: будни - 9:00-21:00</p>
-                    <p>сб. - 10:00-15:00</p>
+            <div class="header__top-work-address flex">
+                <div class="header__top-work-time flex align-items-center">
+                    <img alt="clock" src="img/time.png">
+                    <div>
+                        <p>Мы работаем: будни - 9:00-21:00</p>
+                        <p>сб. - 10:00-15:00</p>
+                    </div>
+                </div>
+                <div class="header__top-address flex align-items-center">
+                    <img alt="placeholder" src="img/placeholder2.png">
+                    <p>Невский пр-т, д. 45</p>
                 </div>
             </div>
-            <div class="header__top-address d-flex align-items-center">
-                <img alt="placeholder" src="img/placeholder2.png">
-                <p>Невский пр-т, д. 45</p>
-            </div>
-            <div class="header__top-whatsapp d-flex">
-                <img alt="whatsapp" class="m-auto" src="img/whatsapp.png">
-                <p class="m-auto">Напишите нам в WhatsApp</p>
-            </div>
-            <div class="header__top-phone d-flex flex-column">
-                <a class="phone-number" href="tel:+7 383 291 92 86">+7 383 291 92 86</a>
-                <a href="">форма обратной связи</a>
+            <div class="header__top-whatsapp-phone flex">
+                <div class="header__top-whatsapp flex">
+                    <img alt="whatsapp" src="img/whatsapp.png">
+                    <p>Напишите нам в WhatsApp</p>
+                </div>
+                <div class="header__top-phone flex flex-column">
+                    <a class="phone-number" href="tel:+7 383 291 92 86">+7 383 291 92 86</a>
+                    <a href="">форма обратной связи</a>
+                </div>
             </div>
         </div>
-        <div class="header__foot d-flex align-items-center justify-content-between">
-            <div class="header__foot-left d-flex justify-content-between">
-                <button class="btn btn-primary d-flex align-items-center justify-content-center" type="button"><img
-                        alt="group_icon" src="img/Group.png">Каталог</button>
-                <form class="d-flex w-100">
+        <div class="header__foot flex align-items-center justify-content-between">
+            <div class="header__foot-left flex justify-content-between">
+                <button class="btn btn-primary flex align-items-center justify-content-center" type="button"><img
+                        alt="group_icon" src="img/Group333.svg"><span>Каталог</span></button>
+                <form class="flex">
                     <input aria-label="Search" class="form-control header-input" placeholder="Поиск по наименованию или артикулу"
                            type="search">
-                    <button class="btn btn-outline-success header-bnt" type="submit">Найти</button>
+                    <button class="btn btn-outline-success header-bnt" type="submit"><span>Найти</span>
+                        <img alt="" class="img_hidden" src="img/search_sign.svg">
+                    </button>
                 </form>
             </div>
-            <div class="header__foot-right d-flex flex-row">
-                <div class="d-flex align-items-center"><img alt="user-icon" src="img/user.png"><a href="">Войти</a></div>
-                <div class="d-flex align-items-center"><img alt="vector-icon" src="img/Vector.png"><a href="">Избранное</a></div>
-                <div class="d-flex align-items-center justify-content-center"><img alt="cart-icon" src="img/cart.png">
+            <div class="header__foot-right flex flex-row">
+                <div class="flex align-items-center"><img alt="user-icon" src="img/user.png"><a href="">Войти</a></div>
+                <div class="flex align-items-center"><img alt="vector-icon" src="img/Vector.png"><a href="">Избранное</a></div>
+                <div class="flex align-items-center justify-content-center"><img alt="cart-icon" src="img/cart.png">
                     <p>В корзине нет товаров</p>
                 </div>
             </div>
@@ -88,7 +95,7 @@
     </div>
 </div>
 <div class="slider1">
-    <div class="wrapper d-flex">
+    <div class="wrapper flex">
         <div class="slider1__big">
             <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
                 <div class="carousel-indicators">
@@ -101,17 +108,17 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img alt="фон" class="slider_bg d-block" src="img/Mask_Group3.png">
+                        <img alt="фон" class="big-slider d-block" src="img/Mask_Group3.png">
                         <img alt="сцепление" class="position-absolute" src="img/avt-zap_main_page_v01.png">
                         <img alt="price" class="position-absolute" src="img/Group_222.png">
                     </div>
                     <div class="carousel-item">
-                        <img alt="фон" class="slider_bg d-block" src="img/Mask_Group3.png">
+                        <img alt="фон" class="big-slider d-block" src="img/Mask_Group3.png">
                         <img alt="сцепление" class="position-absolute" src="img/avt-zap_main_page_v01.png">
                         <img alt="price" class="position-absolute" src="img/Group_222.png">
                     </div>
                     <div class="carousel-item">
-                        <img alt="фон" class="slider_bg d-block" src="img/Mask_Group3.png">
+                        <img alt="фон" class="big-slider d-block" src="img/Mask_Group3.png">
                         <img alt="сцепление" class="position-absolute" src="img/avt-zap_main_page_v01.png">
                         <img alt="price" class="position-absolute" src="img/Group_222.png">
                     </div>
@@ -128,10 +135,10 @@
                 </button>
             </div>
         </div>
-        <div class="slider1__aside d-flex flex-column">
-            <div class="slider1__aside_section d-flex flex-column justify-content-between">
+        <div class="slider1__aside flex flex-column">
+            <div class="slider1__aside_section flex flex-column justify-content-between">
                 <p>Акция</p>
-                <div class="d-flex">
+                <div class="flex">
                     <img alt="avt-zap" src="img/avt-zap.png">
                     <div class="d-flex flex-column">
                         <h3>Обгонная муфта гидротрансформатор</h3>
@@ -160,41 +167,41 @@
     </div>
 </div>
 <div class="slider2">
-    <div class="wrapper d-flex justify-content-between">
-        <div class="slider2__box d-flex justify-content-between">
-            <div class="slider2__box_desc d-flex flex-column justify-content-between">
+    <div class="wrapper flex justify-content-between">
+        <div class="slider2__box flex justify-content-between">
+            <div class="slider2__box_desc flex flex-column justify-content-between">
                 <h3>Масла</h3>
                 <p>Трансмиссионное масло; присадка в масло акпп</p>
-                <button type="button" class="btn btn-primary">Перейти</button>
+                <button class="btn btn-primary" type="button">Перейти</button>
             </div>
-            <img src="img/avt-zap3.png" alt="">
+            <img alt="" src="img/avt-zap3.png">
         </div>
-        <div class="slider2__box d-flex justify-content-between">
-            <div class="slider2__box_desc d-flex flex-column justify-content-between">
+        <div class="slider2__box flex justify-content-between">
+            <div class="slider2__box_desc flex flex-column justify-content-between">
                 <h3>Фильтры</h3>
                 <p>Масляный фильтр; фильтр воздушный</p>
-                <button type="button" class="btn btn-primary">Перейти</button>
+                <button class="btn btn-primary" type="button">Перейти</button>
             </div>
-            <img src="img/avt-zap4.png" alt="">
+            <img alt="" src="img/avt-zap4.png">
         </div>
-        <div class="slider2__box d-flex justify-content-between">
-            <div class="slider2__box_desc d-flex flex-column justify-content-between">
+        <div class="slider2__box flex justify-content-between">
+            <div class="slider2__box_desc flex flex-column justify-content-between">
                 <h3>Радиаторы</h3>
                 <p>Дополнительные радиаторы</p>
-                <button type="button" class="btn btn-primary">Перейти</button>
+                <button class="btn btn-primary" type="button">Перейти</button>
             </div>
-            <img src="img/avt-zap5.png" alt="">
+            <img alt="" src="img/avt-zap5.png">
         </div>
     </div>
 </div>
 <div class="main">
     <div class="wrapper">
-        <div class="main__buttons d-flex justify-content-start">
+        <div class="main__buttons flex justify-content-start">
             <button class="btn btn-primary" type="button">Подборки товаров</button>
             <button class="btn btn-primary" type="button">Акции</button>
             <button class="btn btn-primary" type="button">Сейчас покупают</button>
         </div>
-        <div class="main__goods-list mt-5 d-flex flex-wrap">
+        <div class="main__goods-list flex flex-wrap">
             <div class="main__goods-list_section">
                 <div class="main__goods-list_section_desc">
                     <img alt="mechanics" src="img/goods1.png">
@@ -204,10 +211,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="price">Цена <span>по запросу</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -220,10 +227,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="sales">4 430₽ <span>5 430₽</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -236,10 +243,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="price">Цена <span>по запросу</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -252,10 +259,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="price">Цена <span>по запросу</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -268,10 +275,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="price">Цена <span>по запросу</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -284,10 +291,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="sales">4 430₽ <span>5 430₽</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -300,10 +307,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="price">Цена <span>по запросу</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -316,10 +323,10 @@
                 <div class="main__goods-list_section_btn">
                     <p class="price">Цена <span>по запросу</span></p>
                     <div>
-                        <button class="btn btn-primary" type="button"><img alt="" class="me-2" src="img/cart_1.png">В корзину
+                        <button class="btn btn-primary" type="button"><img alt="" src="img/cart_1.png">В корзину
                         </button>
                         <div><img alt="likes" src="img/heart-shape-outline2.png"></div>
-                        <div><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
+                        <div class="fluctuation"><img alt="fluctuations" src="img/market-fluctuation1.png"></div>
                     </div>
                 </div>
             </div>
@@ -332,7 +339,7 @@
 <div class="news">
     <div class="wrapper"><h2>НОВОСТИ</h2></div>
     <span class="line d-block"></span>
-    <div class="news_side wrapper d-flex">
+    <div class="news__side wrapper flex">
         <div class="news__side_item">
             <p>3 ноября</p>
             <a class="d-block"><h3>Изменения на сайте</h3></a>
@@ -427,7 +434,7 @@
                                type="search">
                         <button class="btn btn-outline-success" type="submit">Подписаться</button>
                     </form>
-                    <div class="footer__social-links d-flex justify-content-end">
+                    <div class="footer__social-links flex">
                         <a href=""><img alt="facebook" src="img/facebook.png"></a>
                         <a href=""><img alt="telegram" src="img/telegram.png"></a>
                         <a href=""><img alt="twitter" src="img/twitter.png"></a>
