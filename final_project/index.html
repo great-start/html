@@ -12,21 +12,21 @@
 </head>
 <body>
 <div class="nav-line">
-    <div class="wrapper d-flex justify-content-between">
-        <div class="nav-line__left-side d-flex">
+    <div class="wrapper flex justify-content-between">
+        <div class="nav-line__left-side flex">
             <div class="me-5">
                 <img alt="placeholder" src="img/placeholder.svg">
                 <p class="d-inline-block me-1">Ваш город:</p>
                 <a class="text-decoration-underline" href="">Москва</a>
             </div>
-            <ul class="d-flex me-4 justify-content-center">
+            <ul class="flex me-4 justify-content-center">
                 <li class="me-4"><a class="me-2" href="">Информация</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
                 <li><a class="me-2" href="">Сотрудничество</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
-                <li class="me-4"><a class="me-2" href="">Еще</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
+                <li class="me-4 list_hidden"><a class="me-2" href="">Еще</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
             </ul>
         </div>
         <div class="nav-line__right-side">
-            <ul class="d-flex align-items-center">
+            <ul class="flex align-items-center">
                 <li><a href="">Доставка</a></li>
                 <li><a href="">Оплата</a></li>
                 <li><a href="">Гарантия</a></li>
@@ -34,6 +34,7 @@
                 <li><a href="">Журнал</a></li>
                 <li><a href="">О магазине</a></li>
                 <li><a href="">Контакты</a></li>
+                <li class="me-4 list_hidden"><a class="me-2" href="">Еще</a><img alt="chevron_top" src="img/chevron_top.svg"></li>
             </ul>
         </div>
     </div>
@@ -413,7 +414,7 @@
                 <a><h3 class="pay">Мы принимаем</h3></a>
                 <img alt="pay_cards" src="img/kisspng-mastercard-money.png">
             </div>
-            <div class="footer__links_section d-flex flex-column">
+            <div class="footer__links_section flex flex-column">
                 <div class="footer__links_section_address d-flex">
                     <div>
                         <h3>КОНТАКТЫ</h3>
@@ -429,7 +430,7 @@
                     <p class="d-inline-block">Мы онлайн, воспользуйтесь</p>
                     <a class="d-inline-block" href="">Форма обратной связи</a>
                     <p>Подпишитесь на нашу рассылку и вы первыми узнаете о скидках и акциях</p>
-                    <form class="d-flex footer-form">
+                    <form class="flex footer-form">
                         <input aria-label="Search" class="footer-input form-control" placeholder="Введите ваш email"
                                type="search">
                         <button class="btn btn-outline-success" type="submit">Подписаться</button>
