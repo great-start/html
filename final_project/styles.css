@@ -27,23 +27,22 @@ a {
     display: flex;
 }
 
-/*nav-line*/
+/*------------------------------nav-line----------------------------------*/
 
 .nav-line {
     height: 36px;
     background: #0F2438;
 }
 
-.navbar, .nav-line__right-side {
+.navbar, .nav-line__right-side, .nav-line__left-side {
     height: inherit;
 }
 
 .nav-line__left-side {
-    height: inherit;
     align-items: center;
 }
 
-.nav-line__left-side ul {
+.nav-line__left-side ul, .nav-line__right-side ul {
     list-style: none;
 }
 
@@ -51,8 +50,7 @@ a {
     display: none;
 }
 
-.nav-line__left-side > div > p,
-.nav-line__left-side > div > a,
+.nav-line__left-side > div > p, .nav-line__left-side > div > a,
 .nav-line__left-side > ul > li > a {
     font-style: normal;
     font-weight: 500;
@@ -67,7 +65,6 @@ a {
 .nav-line__right-side ul {
     height: inherit;
     column-gap: 36px;
-    list-style: none;
 }
 
 .nav-line__right-side ul li a {
@@ -88,7 +85,7 @@ a {
     background-color: #90b0c5;
 }
 
-/*header-main*/
+/*--------------------------header-main------------------------------*/
 
 .header {
     height: 196px;
@@ -117,17 +114,20 @@ a {
     max-width: 180px;
 }
 
-.header__top-logo_desc div > h1 {
+.header__top-logo_desc div > h1, .header__top-logo_desc div p,
+.header__top-work-time div p, .header__top-address > p,
+.header__top-whatsapp > p {
     font-style: normal;
     font-weight: bold;
+}
+
+.header__top-logo_desc div > h1 {
     font-size: 24px;
     line-height: 28px;
     color: #0F2438;
 }
 
 .header__top-logo_desc div p {
-    font-style: normal;
-    font-weight: bold;
     font-size: 12px;
     line-height: 14px;
     color: #0F2438;
@@ -153,12 +153,10 @@ a {
     display: block;
     width: 33px;
     height: 33px;
-    margin: 0 10px 0 0;
+    margin-right: 10px;
 }
 
 .header__top-work-time div p {
-    font-style: normal;
-    font-weight: bold;
     font-size: 14px;
     line-height: 20px;
     text-align: right;
@@ -166,8 +164,6 @@ a {
 }
 
 .header__top-address > p {
-    font-style: normal;
-    font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     color: #0F2438;
@@ -187,8 +183,6 @@ a {
 }
 
 .header__top-whatsapp > p {
-    font-style: normal;
-    font-weight: bold;
     font-size: 12px;
     line-height: 14px;
     text-align: right;
@@ -220,7 +214,7 @@ a {
     text-align: right;
 }
 
-/*header-main__foot*/
+/*-----------------------header-main__foot--------------------------*/
 
 .header__foot button {
     height: 53px;
@@ -231,11 +225,11 @@ a {
 }
 
 .header__foot-left {
-    width: 100%;
     column-gap: 30px;
 }
 
-.header__foot-left form {
+.header__foot-left form, .header__foot-left,
+.header-input, .header-bnt {
     width: 100%;
 }
 
@@ -245,7 +239,6 @@ a {
 
 .header-input {
     min-width: 135px;
-    width: 100%;
     border-top-right-radius: unset;
     border-bottom-right-radius: unset;
     background: #F4F5FA;
@@ -253,7 +246,6 @@ a {
 }
 
 .header-bnt {
-    width: 100px;
     border: none;
     border-top-left-radius: unset;
     border-bottom-left-radius: unset;
@@ -272,13 +264,16 @@ a {
     border-right: 2px solid lightgrey;
 }
 
-.header__foot-right div a {
+.header__foot-right div a, .header__foot-right div:nth-child(3) p {
     font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: normal;
     line-height: 16px;
-    text-align: center;
     color: #0F2438;
+}
+
+.header__foot-right div a {
+    font-size: 14px;
+    text-align: center;
     text-decoration: none;
     margin-right: 20px;
 }
@@ -288,11 +283,7 @@ a {
 }
 
 .header__foot-right div:nth-child(3) p {
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
-    line-height: 16px;
-    color: #0F2438;
     width: 75px;
 }
 
@@ -300,7 +291,7 @@ a {
     color: #90b0c5;
 }
 
-/*slider*/
+/*-------------------------------slider1--------------------------------*/
 
 .slider1 .wrapper {
     column-gap: 10px;
@@ -389,8 +380,7 @@ a {
     border: 1px solid transparent;
 }
 
-
-/*slider2*/
+/*-----------------------------------slider2----------------------------------*/
 
 .slider2 .wrapper {
     justify-content: space-between;
@@ -417,17 +407,18 @@ a {
     margin: 30px;
 }
 
-.slider2__box_desc h3 {
+.slider2__box_desc h3, .slider2__box_desc p {
     font-style: normal;
     font-weight: bold;
+}
+
+.slider2__box_desc h3 {
     font-size: 24px;
     line-height: 28px;
     color: #0A1A2C;
 }
 
 .slider2__box_desc p {
-    font-style: normal;
-    font-weight: bold;
     font-size: 14px;
     line-height: 18px;
     color: #0A1A2C;
@@ -449,7 +440,7 @@ a {
     border: 1px solid transparent;
 }
 
-/*main*/
+/*-----------------------------------main---------------------------------*/
 
 .main {
     margin-top: 70px;
@@ -490,7 +481,7 @@ a {
     border: 1px solid transparent;
 }
 
-/*main__goods-list*/
+/*------------------------------main__goods-list-----------------------------*/
 
 .main__goods-list {
     margin-top: 50px;
@@ -532,34 +523,34 @@ a {
 }
 
 .main__goods-list_section_desc > p {
-    font-style: normal;
-    font-weight: bold;
     font-size: 20px;
     line-height: 25px;
     color: #0A1A2C;
 }
 
-.price {
+.price, .price span {
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 15px;
+}
+
+.price {
     color: #000000;
     margin-bottom: 10px;
 }
 
 .price span {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 15px;
     text-decoration-line: underline;
     color: #005BB9;
 }
 
-.sales {
+.sales, .main__goods-list_section_desc > p {
     font-style: normal;
     font-weight: bold;
+}
+
+.sales {
     font-size: 20px;
     line-height: 26px;
     color: #FFB800;
@@ -608,7 +599,7 @@ a {
     margin-right: 20px;
 }
 
-/*main-foot*/
+/*---------------------------main-foot--------------------------------*/
 
 .main_foot button {
     margin: 20px auto 50px auto;
@@ -626,7 +617,7 @@ a {
     border-radius: 6px;
 }
 
-/*news*/
+/*----------------------------------------news---------------------------------*/
 
 .news {
     margin-top: 80px;
@@ -667,11 +658,14 @@ a {
     margin-bottom: 20px;
 }
 
-.news__side_item a h3 {
+.news__side_item a h3, .news__side_item :nth-child(3) {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+}
+
+.news__side_item a h3 {
     text-decoration-line: underline;
     color: #005BB9;
     margin-bottom: 20px;
@@ -682,14 +676,10 @@ a {
 }
 
 .news__side_item :nth-child(3) {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
     color: #242424;
 }
 
-/*footer*/
+/*--------------------------------footer------------------------------*/
 
 .footer {
     background: #0C1A2A;
@@ -708,7 +698,7 @@ a {
     row-gap: 20px;
 }
 
-.footer__links_section:nth-child(4) {
+.footer__links_section:nth-child(4), .footer__links_section2 {
     flex: 2 0 0;
 }
 
@@ -716,13 +706,13 @@ a {
     flex: 3 0 0;
 }
 
-.footer__links_section2 {
-    flex: 2 0 0;
+.footer__links_section > a > h2, .footer__links_section > a > h3,
+.footer__links_section_address div h3 {
+    font-style: normal;
+    font-weight: 500;
 }
 
 .footer__links_section > a > h2 {
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #868DAC;
@@ -730,8 +720,6 @@ a {
 }
 
 .footer__links_section > a > h3 {
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
@@ -754,8 +742,6 @@ a {
 }
 
 .footer__links_section_address div h3 {
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #868DAC;
@@ -770,20 +756,19 @@ a {
     color: #FFFFFF;
 }
 
-.footer__links_section_callback > p {
+.footer__links_section_callback > p, .footer__links_section_callback > a {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
+}
+
+.footer__links_section_callback > p {
     color: #858CAB;
     margin-right: 20px;
 }
 
 .footer__links_section_callback > a {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 21px;
     color: #FFFFFF;
     margin-bottom: 23px;
 }

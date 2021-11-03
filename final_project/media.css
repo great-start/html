@@ -11,6 +11,7 @@
     .nav-line__left-side ul li {
         margin-right: 30px !important;
     }
+
     /*header*/
     .header {
         height: 196px;
@@ -121,7 +122,12 @@
 
 @media screen and (min-width: 414px) and (max-width: 767px) {
 
-    .nav-line__right-side ul li:nth-child(-n+7) {
+    .nav-line__right-side ul li:nth-child(-n+7),
+    .nav-line__left-side ul,
+    .header__foot-left > button span,
+    .fluctuation,
+    .news__side div:nth-child(4),
+    .slider2 > div > div:nth-child(3) {
         display: none;
     }
 
@@ -131,10 +137,6 @@
 
     .nav-line__left-side ul li {
         margin-right: 30px !important;
-    }
-
-    .nav-line__left-side ul {
-        display: none;
     }
 
     /*header*/
@@ -171,10 +173,6 @@
 
     .header__top-phone :nth-child(2) {
         font-size: 10px;
-    }
-
-    .header__foot-left > button span {
-        display: none;
     }
 
     .header__foot-left {
@@ -251,12 +249,8 @@
         font-size: 14px;
     }
 
-    .fluctuation {
-        display: none;
-    }
-
-    .news__side div:nth-child(4) {
-        display: none;
+    .footer {
+        margin-top: 60px;
     }
 
     .footer__links {
@@ -267,9 +261,6 @@
         width: 30%;
     }
 
-    .slider2 > div > div:nth-child(3) {
-        display: none;
-    }
     .main, .main__goods-list {
         margin-top: 30px;
     }
@@ -284,6 +275,7 @@
         align-items: flex-start;
         padding: 30px 5px 30px 5px;
     }
+
     .main__goods-list_section_desc img:nth-child(1) {
         width: 95%;
     }
@@ -310,16 +302,17 @@
         padding: 0 15px;
     }
 
-    .nav-line__left-side > div > img {
-        display: none;
-    }
-
+    .nav-line__left-side > div > img,
     .nav-line__left-side ul li:nth-child(1),
-    .nav-line__left-side ul li:nth-child(2) {
-        display: none;
-    }
-
-    .nav-line__right-side {
+    .nav-line__left-side ul li:nth-child(2),
+    .nav-line__right-side,
+    .header__top-work-address,
+    .header__foot-right,
+    .header__foot-left button span,
+    .header__foot-left form button span,
+    .slider1__aside,
+    .slider2__box:nth-child(n+2),
+    .fluctuation {
         display: none;
     }
 
@@ -337,10 +330,6 @@
 
     .header {
         height: 170px;
-    }
-
-    .header__top-work-address {
-        display: none;
     }
 
     .header__top-whatsapp-phone {
@@ -395,15 +384,6 @@
         font-size: 10px;
     }
 
-    .header__foot-right {
-        display: none;
-    }
-
-    .header__foot-left button span,
-    .header__foot-left form button span {
-        display: none;
-    }
-
     .header__foot-left {
         column-gap: 20px;
     }
@@ -441,17 +421,9 @@
         width: 100%;
     }
 
-    .slider1__aside {
-        display: none;
-    }
-
     .slider2 .wrapper {
         margin-top: 10px;
         height: 140px;
-    }
-
-    .slider2__box:nth-child(n+2) {
-        display: none;
     }
 
     .slider2__box:nth-child(1) img {
@@ -508,10 +480,6 @@
     .main__goods-list_section_desc > p {
         font-size: 13px;
         line-height: normal;
-    }
-
-    .fluctuation {
-        display: none;
     }
 
     .main__goods-list_section_btn button {
@@ -592,7 +560,16 @@
 
 /*------------------------------------------------------------*/
 
-@media screen and (min-width: 414px) and (max-width: 710px) {
+@media screen and (min-width: 749px) and (max-width: 840px){
+    .header__top-work-address {
+        width: 266px;
+        flex: unset;
+    }
+}
+
+/*--------------------------------------------------------------*/
+
+@media screen and (min-width: 414px) and (max-width: 750px) {
     .header__top-work-address {
         display: none;
     }
@@ -624,7 +601,8 @@
         width: inherit;
     }
 
-    .header__foot-right {
+    .header__foot-right,
+    .slider2 div:nth-child(2) {
         display: none;
     }
 
@@ -632,13 +610,10 @@
         width: 160px;
     }
 
-    .slider2 div:nth-child(2) {
-        display: none;
-    }
-
     .slider2 .wrapper {
         justify-content: center;
     }
+
     .slider2__box {
         column-gap: 80px;
     }
@@ -646,6 +621,7 @@
     .slider2__box_desc {
         flex: 5 0 0;
     }
+
     .slider2__box img {
         flex: 3 0 0;
     }
@@ -653,6 +629,7 @@
     .main__buttons button:nth-child(-n+3) {
         font-size: 16px;
     }
+
     .main__buttons {
         justify-content: space-between;
     }
